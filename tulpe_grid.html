@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tulpe Grid</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/styles/css/tulpe.css">
+  <link rel="stylesheet" href="assets/styles/css/demo.css">
+  <link rel="icon" type="image/png" href="assets/images/flex.png">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="flex-layout demo">
+    <div class="container-fluid demo-section">
+      <h1>Tulpe Grid
+        <i class="fa fa-th"></i>
+      </h1>
+      <section class="wrapper">
+        <div class="column one"><p>one</p></div>
+        <div class="column eleven"><p>eleven</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column two"><p>two</p></div>
+        <div class="column ten"><p>ten</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column three"><p>three</p></div>
+        <div class="column nine"><p>nine</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column four"><p>four</p></div>
+        <div class="column eight"><p>eight</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column five"><p>five</p></div>
+        <div class="column seven"><p>seven</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column six"><p>six</p></div>
+        <div class="column six"><p>six</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column seven"><p>seven</p></div>
+        <div class="column five"><p>five</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column eight"><p>eight</p></div>
+        <div class="column four"><p>four</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column nine"><p>nine</p></div>
+        <div class="column three"><p>three</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column ten"><p>ten</p></div>
+        <div class="column two"><p>two</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="column eleven"><p>eleven</p></div>
+        <div class="column one"><p>one</p></div>
+      </section>
+
+      <section class="wrapper">
+        <div class="twelve column"><p>twelve</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+    <span class="spacer"></span>
+<!-- offsets elements \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container-fluid demo-section">
+      <h1>offsets elements
+        <i class="fa fa-align-right"></i>
+      </h1>
+
+      <section class="wrapper">
+        <div class="column one offset-eleven"><p>one</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column two offset-ten"><p>two</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column three offset-nine"><p>three</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column four offset-eight"><p>four</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column five offset-seven"><p>five</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column six offset-six"><p>six</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column seven offset-five"><p>seven</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column eight offset-four"><p>eight</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column nine offset-three"><p>nine</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column ten offset-two"><p>ten</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column eleven offset-one"><p>eleven</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+    <span class="spacer"></span>
+
+<!-- Auto width \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container-fluid demo-section">
+      <h1>Auto width</h1>
+      <h6>Add any number of auto sizing column to a row. Let the grid figure it out.</h6>
+
+      <section class="wrapper">
+        <div class="column"><p>auto width</p></div>
+        <div class="column"><p>auto width</p></div>
+        <div class="column"><p>auto width</p></div>
+        <div class="column"><p>auto width</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column"><p>auto</p></div>
+        <div class="column"><p>auto</p></div>
+        <div class="column"><p>auto</p></div>
+        <div class="column"><p>auto</p></div>
+        <div class="column"><p>auto</p></div>
+        <div class="column"><p>auto</p></div>
+        <div class="column"><p>auto</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column"><p>auto width</p></div>
+        <div class="column"><p>auto width</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+    <span class="spacer"></span>
+
+<!-- horizontal alignment \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container-fluid demo-section">
+      <h1>horizontal alignment
+        <i class="fa fa-ellipsis-h"></i>
+      </h1>
+      <h6>Add classes to align elements to the start or end of a row as well as the top, bottom, or center of a column.</h6>
+
+      <h3>.align-left
+        <i class="fa fa-align-left"></i>
+      </h3>
+      <section class="wrapper align-left">
+        <div class="column four"><p>aligned to </p></div>
+        <div class="column five"><p>the left</p></div>
+      </section>
+
+      <h3>.align-center
+        <i class="fa fa-align-center"></i>
+      </h3>
+      <section class="wrapper align-center">
+        <div class="column two"><p>aligned to</p></div>
+        <div class="column two"><p>the center</p></div>
+      </section>
+
+      <h3>.align-right
+        <i class="fa fa-align-right"></i>
+      </h3>
+      <section class="wrapper align-right">
+        <div class="column five"><p>aligned to</p></div>
+        <div class="column three"><p>the right</p></div>
+      </section>
+
+      <h3>.align-justify
+        <i class="fa fa-align-justify"></i>
+      </h3>
+      <section class="wrapper align-justify">
+        <div class="column four"><p>aligned to</p></div>
+        <div class="column four"><p>the edge</p></div>
+      </section>
+
+      <h3>.align-spaced
+        <i class="fa fa-sliders"></i>
+      </h3>
+      <section class="wrapper align-spaced">
+        <div class="column three"><p>aligned to</p></div>
+        <div class="column three"><p>the space around</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+    <span class="spacer"></span>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+    <div class="container-fluid demo-section">
+      <h1>vertical alignment
+        <i class="fa fa-align-justify"></i>
+      </h1>
+      <h6>Add classes to align elements to the start or end of a row as well as the top, bottom, or center of a column.</h6>
+            <h3>.top
+        <i class="fa fa-long-arrow-up"></i>
+      </h3>
+      <section class="wrapper top-column">
+        <div class="column five"><p class="large-column">BIG five column</p></div>
+        <div class="column five"><p>top five column</p></div>
+      </section>
+
+      <h3>.middle
+        <i class="fa fa-arrows-v"></i>
+      </h3>
+      <section class="wrapper middle-column">
+        <div class="column five"><p class="large-column">BIG five column</p></div>
+        <div class="column seven"><p>middle seven column</p></div>
+      </section>
+
+      <h3>.bottom
+        <i class="fa fa-long-arrow-down"></i>
+      </h3>
+      <section class="wrapper bottom-column">
+        <div class="column five"><p class="large-column">BIG five column</p></div>
+        <div class="column six"><p>bottom six column</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+    <span class="spacer"></span>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+    <div class="container-fluid demo-section">
+      <h1>Distribution</h1>
+      <h6>Add classes to distribute the contents of a row or column.</h6>
+
+      <h3>.around</h3>
+      <section class="wrapper arround-column">
+        <div class="column two"><p>2 columns</p></div>
+        <div class="column three"><p>3 columns</p></div>
+        <div class="column two"><p>2 columns</p></div>
+        <div class="column two"><p>2 columns</p></div>
+      </section>
+
+      <h3>.between</h3>
+      <section class="wrapper between-column">
+        <div class="column two"><p>2 columns</p></div>
+        <div class="column two"><p>2 columns</p></div>
+        <div class="column three"><p>3 columns</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+    <span class="spacer"></span>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container-fluid demo-section">
+      <h1>Order</h1>
+      <h6>Add classes to reorder column.</h6>
+
+      <h3>.order-first-column </h3>
+      <section class="wrapper">
+        <div class="column two"><p>1</p></div>
+        <div class="column two"><p>2</p></div>
+        <div class="column two"><p>3</p></div>
+        <div class="column two"><p>4</p></div>
+        <div class="column two"><p>5</p></div>
+        <div class="column two order-first-column"><p>6</p></div>
+      </section>
+      <br>
+      <h3>.order-last-column</h3>
+      <section class="wrapper">
+        <div class="column two order-last-column"><p>1</p></div>
+        <div class="column two"><p>2</p></div>
+        <div class="column two"><p>3</p></div>
+        <div class="column two"><p>4</p></div>
+        <div class="column two"><p>5</p></div>
+        <div class="column two"><p>6</p></div>
+      </section>
+      <br>
+      <h3>.order</h3>
+      <section class="wrapper">
+        <div class="column five order-last-column"><p>first column is last > </p></div>
+        <div class="column four order-first-column"><p>last column is first < </p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+
+    <span class="spacer"></span>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container-fluid demo-section">
+      <h1>direction
+        <i class="fa fa-arrows"></i>
+      </h1>
+      <h6>The 'flex-direction' property specifies how flex items are placed in the flex container-fluid.</h6>
+
+      <h3>.row "default"
+        <i class="fa fa-arrow-right"></i>
+      </h3>
+      <section class="wrapper">
+        <div class="column two"><p>1</p></div>
+        <div class="column two"><p>2</p></div>
+        <div class="column two"><p>3</p></div>
+        <div class="column two"><p>4</p></div>
+        <div class="column two"><p>5</p></div>
+        <div class="column two"><p>6</p></div>
+      </section>
+
+      <br>
+
+      <h3>.row-reverse
+        <i class="fa fa-arrow-left"></i>
+      </h3>
+      <section class="wrapper row-reverse">
+        <div class="column two"><p>1</p></div>
+        <div class="column two"><p>2</p></div>
+        <div class="column two"><p>3</p></div>
+        <div class="column two"><p>4</p></div>
+        <div class="column two"><p>5</p></div>
+        <div class="column two"><p>6</p></div>
+      </section>
+
+      <br>
+
+      <h3>.column
+        <i class="fa fa-sort-numeric-asc"></i>
+        <i class="fa fa-sort-amount-asc"></i>
+        <i class="fa fa-sort-alpha-asc"></i>
+
+      </h3>
+      <div class="flex-vertical-layout">
+        <section class="flex-wrap">
+          <div class="column six"><p>1</p></div>
+          <div class="column six"><p>2</p></div>
+          <div class="column six"><p>3</p></div>
+          <div class="column six"><p>4</p></div>
+          <div class="column six"><p>5</p></div>
+          <div class="column six"><p>6</p></div>
+        </section>
+      </div>
+
+      <h3>.column-reverse
+        <i class="fa fa-sort-numeric-desc"></i>
+        <i class="fa fa-sort-amount-desc"></i>
+        <i class="fa fa-sort-alpha-desc"></i>
+      </h3>
+      <div class="flex-vertical-layout">
+        <section class="flex-wrap column-reverse">
+          <div class="column six"><p>1</p></div>
+          <div class="column six"><p>2</p></div>
+          <div class="column six"><p>3</p></div>
+          <div class="column six"><p>4</p></div>
+          <div class="column six"><p>5</p></div>
+          <div class="column six"><p>6</p></div>
+        </section>
+      </div>
+    </div><!-- .container-fluid -->
+
+
+    <span class="spacer"></span>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container-fluid demo-section">
+      <h1>RESPONSIVE</h1>
+      <h6>Add classes to reorder column.</h6>
+
+      <h3>responsive</h3>
+      <section class="wrapper">
+        <div class="column small-twelve medium-four large-six wide-two"><p>home</p></div>
+        <div class="column small-twelve medium-four large-three wide-six"><p>company</p></div>
+        <div class="column small-twelve medium-four large-three wide-four"><p>Services</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column small-twelve medium-three large-two"><p>about</p></div>
+        <div class="column small-twelve medium-six large-eight"><p>contact</p></div>
+        <div class="column small-twelve medium-three large-two"><p>map</p></div>
+      </section>
+      <section class="wrapper">
+        <div class="column small-twelve medium-six large-four"><p>City</p></div>
+        <div class="column small-twelve medium-six large-eight"><p>Country</p></div>
+      </section>
+    </div><!-- .container-fluid -->
+
+  </div>
+</body>
+</html>

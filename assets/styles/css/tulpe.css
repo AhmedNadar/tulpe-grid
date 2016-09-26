@@ -1,0 +1,1597 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700|Cambo|Imprima|Lato:100,300,400,700|Poppins:300,400,500,600|Ruluko|Snippet|Titillium+Web:200,300,400,600';
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\000036}}
+html, body {
+  font-size: 1em;
+  -webkit-text-size-adjust: 1em;
+  -ms-text-size-adjust: 1em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-tap-highlight-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000318}}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000323}}
+body {
+  font-size: 1em;
+  line-height: 1.6em;
+  font-weight: 400;
+  font-family: "Imprima", sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+  position: relative;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000333}}
+html, body, div, div, dl, dt, dd, span, h1, h2, h3, h4, h5, h6, p, a, em, i, b, small, strong, input, footer, header, menu, section, figure, ul, ol, li, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000339}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000343}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000355}}
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000366}}
+a {
+  color: #333333;
+  text-decoration: underline;
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000371}}
+a:hover, a:focus, a:active {
+  outline: 0;
+  color: #FFDA6C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000375}}
+a:focus {
+  outline: thin dotted; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000378}}
+img, video, audio {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000384}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  display: inline;
+  *zoom: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000391}}
+figure {
+  margin: 0;
+  width: 100%;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\0000396}}
+ul {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003103}}
+li {
+  position: relative;
+  margin: 1rem 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003108}}
+.highlighted {
+  color: #FFDA6C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003111}}
+.margin-20-bottom {
+  margin-bottom: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003115}}
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+  font-size: 110%;
+  position: relative;
+  margin-right: 3px;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003123}}
+input[type="search"] {
+  -webkit-appearance: textfield; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003126}}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003131}}
+.navbar, .brand, .button, a, p, address, figcaption {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003135}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003139}}
+[hidden] {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003143}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003146}}
+b,
+strong {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003150}}
+blockquote {
+  margin: 1em 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003153}}
+dfn {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003156}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003160}}
+p {
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003163}}
+q {
+  quotes: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003165}}
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003170}}
+small {
+  font-size: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003173}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003180}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003182}}
+sub {
+  bottom: -0.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003185}}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003191}}
+dd {
+  margin: 0 0 0 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003194}}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003199}}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003204}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003208}}
+svg:not(:root) {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003211}}
+figure {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003214}}
+form {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003217}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003222}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003229}}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003238}}
+button,
+input {
+  line-height: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003242}}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003250}}
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003254}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003261}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003267}}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003271}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003277}}
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003281}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003286}}
+.spacer {
+  height: 2em;
+  min-width: 2em;
+  margin: 1em 0;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_default\.sass}line{font-family:\00003293}}
+.full-image .wrapper {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\000036}}
+h1, h2, h3, h4, h5, h6 {
+  width: 100%;
+  font-weight: bold;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  transition: all 0.75s ease 0s;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\0000315}}
+h1, .h1 {
+  font-size: 5em;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\0000321}}
+h2, .h2 {
+  font-size: 4.5em;
+  line-height: 1.25;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\0000327}}
+h3, .h3 {
+  font-size: 4em;
+  line-height: 1.3;
+  letter-spacing: 0.1rem;
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\0000333}}
+h4, .h4 {
+  font-size: 3.5em;
+  line-height: 1.35;
+  letter-spacing: 0.08rem;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\0000339}}
+h5, .h5 {
+  font-size: 3em;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_headings\.sass}line{font-family:\0000345}}
+h6, .h6 {
+  font-size: 2.5em;
+  line-height: 1.6;
+  letter-spacing: 0;
+  margin: 0.67em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\000035}}
+ul {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000312}}
+li {
+  position: relative;
+  margin: 1rem 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000319}}
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000323}}
+ul, ol,
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin: 0 0 0 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000330}}
+ol ol li {
+  list-style-type: lower-alpha; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000333}}
+ol ol ol li {
+  list-style-type: lower-roman; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000336}}
+nav ul, nav ol {
+  margin: 0;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_lists\.sass}line{font-family:\0000340}}
+ul, ol {
+  margin: 20px 0;
+  padding: 0 0 0 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\000035}}
+dl dt {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\000038}}
+dd {
+  margin-left: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\0000310}}
+dl {
+  display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\0000311}}
+  dl:before, dl:after {
+    content: " "; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\0000314}}
+  dl:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\0000316}}
+  dl dt {
+    float: left;
+    width: 25%;
+    display: block;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\0000322}}
+  dl dd {
+    overflow: hidden;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_typography\.sass}line{font-family:\0000338}}
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6,
+ul + h2,
+ul + h3,
+ul + h4,
+ul + h5,
+ul + h6,
+ol + h2,
+ol + h3,
+ol + h4,
+ol + h5,
+ol + h6,
+dl + h2,
+dl + h3,
+dl + h4,
+dl + h5,
+dl + h6,
+blockquote + h2,
+blockquote + h3,
+blockquote + h4,
+blockquote + h5,
+blockquote + h6,
+hr + h2,
+hr + h3,
+hr + h4,
+hr + h5,
+hr + h6,
+pre + h2,
+pre + h3,
+pre + h4,
+pre + h5,
+pre + h6,
+table + h2,
+table + h3,
+table + h4,
+table + h5,
+table + h6,
+form + h2,
+form + h3,
+form + h4,
+form + h5,
+form + h6,
+figure + h2,
+figure + h3,
+figure + h4,
+figure + h5,
+figure + h6 {
+  margin-top: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_code\.sass}line{font-family:\000037}}
+code, kbd, pre, samp {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 1.5em;
+  text-transform: lowercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_code\.sass}line{font-family:\0000312}}
+pre {
+  max-height: none;
+  background: #f9f9fa;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  margin: 2em;
+  padding: 2em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  border-radius: 1em;
+  overflow-x: auto;
+  padding: 1.25em;
+  border-left-width: 5px;
+  margin: 1.6em 0;
+  white-space: pre;
+  word-wrap: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_code\.sass}line{font-family:\0000326}}
+code {
+  color: #000;
+  background: transparent;
+  text-shadow: 0 1px #fff;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_code\.sass}line{font-family:\00003122}}
+.line-numbers {
+  font-family: "monaco", "Consolas", "Lucida Console", monospace;
+  list-style: decimal-leading-zero inside;
+  white-space: nowrap;
+  overflow: auto;
+  margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_code\.sass}line{font-family:\00003128}}
+  .line-numbers .line-numbers code {
+    white-space: pre; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/components\/_code\.sass}line{font-family:\00003134}}
+.code-comment {
+  opacity: 0.75;
+  filter: alpha(opacity=75); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\000035}}
+.flex-layout {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+  min-height: 100vh;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000319}}
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  min-height: 0vh;
+  margin: 1rem 0;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000325}}
+.flex-layout-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000332}}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000337}}
+.container-fluid {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000344}}
+.container, .container-fluid {
+  -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  background-color: transparent;
+  padding: 2em;
+  margin: 1em auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000351}}
+.wrapper {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  margin: 0 auto;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000358}}
+.auto-column {
+  -moz-box-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000361}}
+.column {
+  -moz-box-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  transition: all 0.75s ease 0s;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  position: relative;
+  min-height: 1em;
+  margin: 0 auto 1em auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000375}}
+.offset {
+  margin-left: 1em;
+  margin-right: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000378}}
+.offset-none {
+  margin-left: 0%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000380}}
+.offset-one {
+  margin-left: 8.33333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000382}}
+.offset-two {
+  margin-left: 16.66667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000384}}
+.offset-three {
+  margin-left: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000386}}
+.offset-four {
+  margin-left: 33.33333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000388}}
+.offset-five {
+  margin-left: 41.66667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000390}}
+.offset-six {
+  margin-left: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000392}}
+.offset-seven {
+  margin-left: 58.33333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000394}}
+.offset-eight {
+  margin-left: 66.66667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000396}}
+.offset-nine {
+  margin-left: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\0000398}}
+.offset-ten {
+  margin-left: 83.33333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003100}}
+.offset-eleven {
+  margin-left: 91.66667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003106}}
+.order-first-column,
+.order-last-column,
+.order-one-column,
+.order-two-columns,
+.order-three-columns,
+.order-four-columns,
+.order-five-columns,
+.order-six-columns {
+  background-color: #84008c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003116}}
+.large-column {
+  height: 20rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003119}}
+.auto-row, .auto-column, .auto-columns {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003127}}
+.flex-row {
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003129}}
+.flex-column {
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003134}}
+.row-reverse {
+  -webkit-flex-direction: horizontal;
+  -moz-flex-direction: horizontal;
+  -ms-flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003136}}
+.column-reverse {
+  -webkit-flex-direction: vertical;
+  -moz-flex-direction: vertical;
+  -ms-flex-direction: column-reverse;
+  -webkit-flex-direction: column-reverse;
+  flex-direction: column-reverse; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003142}}
+.align-left {
+  -ms-flex-pack: start;
+  align-items: flex-start;
+  justify-content: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003146}}
+.align-right {
+  -ms-flex-pack: end;
+  align-items: flex-end;
+  justify-content: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003150}}
+.align-center {
+  -ms-flex-pack: center;
+  align-items: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003154}}
+.align-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003158}}
+.align-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  align-content: space-around; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003164}}
+.top-column {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  justify-content: flex-start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003168}}
+.middle-column {
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003172}}
+.bottom-column {
+  -ms-flex-align: end;
+  align-items: flex-end;
+  justify-content: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003179}}
+.order-first-column {
+  -moz-box-ordinal-group: -1;
+  -moz-box-ordinal-group: -1;
+  -ms-flex-order: -1;
+  -webkit-order: -1;
+  order: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003182}}
+.order-natural-column {
+  -moz-box-ordinal-group: 0;
+  -moz-box-ordinal-group: 0;
+  -ms-flex-order: 0;
+  -webkit-order: 0;
+  order: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003185}}
+.order-last-column {
+  -moz-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003194}}
+.one {
+  flex-basis: 8.333%;
+  width: 8.333%;
+  max-width: 8.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003196}}
+.two {
+  flex-basis: 16.666%;
+  width: 16.666%;
+  max-width: 16.666%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003198}}
+.three {
+  flex-basis: 25%;
+  width: 25%;
+  max-width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003200}}
+.four {
+  flex-basis: 33.333%;
+  width: 33.333%;
+  max-width: 33.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003202}}
+.five {
+  flex-basis: 41.667%;
+  width: 41.667%;
+  max-width: 41.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003204}}
+.six {
+  flex-basis: 50%;
+  width: 50%;
+  max-width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003206}}
+.seven {
+  flex-basis: 58.333%;
+  width: 58.333%;
+  max-width: 58.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003208}}
+.eight {
+  flex-basis: 66.667%;
+  width: 66.667%;
+  max-width: 66.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003210}}
+.nine {
+  flex-basis: 75%;
+  width: 75%;
+  max-width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003212}}
+.ten {
+  flex-basis: 83.333%;
+  width: 83.333%;
+  max-width: 83.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003214}}
+.eleven {
+  flex-basis: 91.667%;
+  width: 91.667%;
+  max-width: 91.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003216}}
+.twelve {
+  flex-basis: 100%;
+  width: 100%;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003224}}
+.small-one {
+  flex-basis: 8.333%;
+  width: 8.333%;
+  max-width: 8.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003226}}
+.small-two {
+  flex-basis: 16.666%;
+  width: 16.666%;
+  max-width: 16.666%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003228}}
+.small-three {
+  flex-basis: 25%;
+  width: 25%;
+  max-width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003230}}
+.small-four {
+  flex-basis: 33.333%;
+  width: 33.333%;
+  max-width: 33.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003232}}
+.small-five {
+  flex-basis: 41.667%;
+  width: 41.667%;
+  max-width: 41.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003234}}
+.small-six {
+  flex-basis: 50%;
+  width: 50%;
+  max-width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003236}}
+.small-seven {
+  flex-basis: 58.333%;
+  width: 58.333%;
+  max-width: 58.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003238}}
+.small-eight {
+  flex-basis: 66.667%;
+  width: 66.667%;
+  max-width: 66.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003240}}
+.small-nine {
+  flex-basis: 75%;
+  width: 75%;
+  max-width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003242}}
+.small-ten {
+  flex-basis: 83.333%;
+  width: 83.333%;
+  max-width: 83.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003244}}
+.small-eleven {
+  flex-basis: 91.667%;
+  width: 91.667%;
+  max-width: 91.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003246}}
+.small-twelve {
+  flex-basis: 100%;
+  width: 100%;
+  max-width: 100%; }
+
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003254}}
+  .medium-one {
+    flex-basis: 8.333%;
+    width: 8.333%;
+    max-width: 8.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003256}}
+  .medium-two {
+    flex-basis: 16.666%;
+    width: 16.666%;
+    max-width: 16.666%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003258}}
+  .medium-three {
+    flex-basis: 25%;
+    width: 25%;
+    max-width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003260}}
+  .medium-four {
+    flex-basis: 33.333%;
+    width: 33.333%;
+    max-width: 33.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003262}}
+  .medium-five {
+    flex-basis: 41.667%;
+    width: 41.667%;
+    max-width: 41.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003264}}
+  .medium-six {
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003266}}
+  .medium-seven {
+    flex-basis: 58.333%;
+    width: 58.333%;
+    max-width: 58.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003268}}
+  .medium-eight {
+    flex-basis: 66.667%;
+    width: 66.667%;
+    max-width: 66.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003270}}
+  .medium-nine {
+    flex-basis: 75%;
+    width: 75%;
+    max-width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003272}}
+  .medium-ten {
+    flex-basis: 83.333%;
+    width: 83.333%;
+    max-width: 83.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003274}}
+  .medium-eleven {
+    flex-basis: 91.667%;
+    width: 91.667%;
+    max-width: 91.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003276}}
+  .medium-twelve {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%; } }
+@media (min-width: 64em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003284}}
+  .large-one {
+    flex-basis: 8.333%;
+    width: 8.333%;
+    max-width: 8.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003286}}
+  .large-two {
+    flex-basis: 16.666%;
+    width: 16.666%;
+    max-width: 16.666%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003288}}
+  .large-three {
+    flex-basis: 25%;
+    width: 25%;
+    max-width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003290}}
+  .large-four {
+    flex-basis: 33.333%;
+    width: 33.333%;
+    max-width: 33.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003292}}
+  .large-five {
+    flex-basis: 41.667%;
+    width: 41.667%;
+    max-width: 41.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003294}}
+  .large-six {
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003296}}
+  .large-seven {
+    flex-basis: 58.333%;
+    width: 58.333%;
+    max-width: 58.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003298}}
+  .large-eight {
+    flex-basis: 66.667%;
+    width: 66.667%;
+    max-width: 66.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003300}}
+  .large-nine {
+    flex-basis: 75%;
+    width: 75%;
+    max-width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003302}}
+  .large-ten {
+    flex-basis: 83.333%;
+    width: 83.333%;
+    max-width: 83.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003304}}
+  .large-eleven {
+    flex-basis: 91.667%;
+    width: 91.667%;
+    max-width: 91.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003306}}
+  .large-twelve {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%; } }
+@media (min-width: 90em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003314}}
+  .wide-one {
+    flex-basis: 8.333%;
+    width: 8.333%;
+    max-width: 8.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003316}}
+  .wide-two {
+    flex-basis: 16.666%;
+    width: 16.666%;
+    max-width: 16.666%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003318}}
+  .wide-three {
+    flex-basis: 25%;
+    width: 25%;
+    max-width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003320}}
+  .wide-four {
+    flex-basis: 33.333%;
+    width: 33.333%;
+    max-width: 33.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003322}}
+  .wide-five {
+    flex-basis: 41.667%;
+    width: 41.667%;
+    max-width: 41.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003324}}
+  .wide-six {
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003326}}
+  .wide-seven {
+    flex-basis: 58.333%;
+    width: 58.333%;
+    max-width: 58.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003328}}
+  .wide-eight {
+    flex-basis: 66.667%;
+    width: 66.667%;
+    max-width: 66.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003330}}
+  .wide-nine {
+    flex-basis: 75%;
+    width: 75%;
+    max-width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003332}}
+  .wide-ten {
+    flex-basis: 83.333%;
+    width: 83.333%;
+    max-width: 83.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003334}}
+  .wide-eleven {
+    flex-basis: 91.667%;
+    width: 91.667%;
+    max-width: 91.667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003336}}
+  .wide-twelve {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%; } }
+@media (min-width: 20em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003344}}
+  .container .container {
+    width: 100%; } }
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003349}}
+  .container .container {
+    width: 49rem; } }
+@media (min-width: 64em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003354}}
+  .container .container {
+    width: 65rem; } }
+@media (min-width: 90em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/grid\/_grid\.sass}line{font-family:\00003359}}
+  .container .container {
+    width: 91rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\0000314}}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes #$animation {
+  to {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0; } }
+@keyframes #$animation {
+  to {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\0000328}}
+.slideUp {
+  overflow: hidden;
+  -webkit-animation-name: slideUp;
+  animation-name: slideUp; }
+
+@-webkit-keyframes #$animation {
+  from {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0; } }
+@keyframes #$animation {
+  from {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\0000340}}
+.slideDown {
+  overflow: hidden;
+  -webkit-animation-name: slideDown;
+  animation-name: slideDown; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\0000357}}
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\0000373}}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\0000389}}
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003106}}
+.slideOutLeft {
+  -webkit-animation-name: slideOutLeft;
+  animation-name: slideOutLeft; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003123}}
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003139}}
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp; }
+
+@-webkit-keyframes #$animation {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes #$animation {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003152}}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+@-webkit-keyframes #$animation {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes #$animation {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003164}}
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut; }
+
+@-webkit-keyframes #$animation {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+@keyframes #$animation {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003178}}
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn; }
+
+@-webkit-keyframes #$animation {
+  from {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  to {
+    opacity: 0; } }
+@keyframes #$animation {
+  from {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  to {
+    opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003194}}
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003210}}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse; }
+
+@-webkit-keyframes #$animation {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-7px, 0, 0);
+    transform: translate3d(-7px, 0, 0); }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(7px, 0, 0);
+    transform: translate3d(7px, 0, 0); } }
+@keyframes #$animation {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-7px, 0, 0);
+    transform: translate3d(-7px, 0, 0); }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(7px, 0, 0);
+    transform: translate3d(7px, 0, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003226}}
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake; }
+
+@-webkit-keyframes #$animation {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+@keyframes #$animation {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003251}}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom; }
+
+@-webkit-keyframes #$animation {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes #$animation {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ahmed\/projects\/frontend\/tulpe_2\/assets\/sass\/animation\/_animation\.sass}line{font-family:\00003266}}
+.rotate {
+  -webkit-animation-name: rotate;
+  animation-name: rotate; }
